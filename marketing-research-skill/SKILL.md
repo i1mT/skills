@@ -1,9 +1,8 @@
 ---
-name: market-research-skill
+name: marketing-research-skill
 description: 用中文为创业项目、产品创意、新业务方向或市场机会生成具备投资决策价值和产品决策价值的市场调研报告。用户需要判断“值不值得做、怎么做、如何获客、如何做到 PMF”时必须使用本技能，尤其适用于新 App、SaaS、AI 产品、消费品、垂直社区、平台型产品、出海项目、竞品分析、用户痛点分析、商业模式分析和 MVP 规划。
 license: MIT
 version: "1.0.0"
-author: molardata
 ---
 
 # 市场调研技能
