@@ -1,6 +1,6 @@
 ---
 name: vibe-repo-normalize-skill
-description: 将代码仓库规范化，使得仓库可以在vibe coding长期迭代的情况下，也能保持可读性、可维护性。
+description: 给仓库安装 coding 文档系统，将代码仓库规范化，使得仓库可以在vibe coding长期迭代的情况下，也能保持可读性、可维护性。
 metadata:
     author: phoenix
     version: "1.0"
@@ -8,7 +8,7 @@ metadata:
 
 # Vibe Coding 代码仓库规范化
 
-将 `assets/template` 中的模板为基准，改造代码仓库。
+以 `assets/template` 为模板，给仓库安装 coding 文档系统。
 
 ## 规范
 
@@ -17,11 +17,18 @@ vibecoding 仓库的规范如下：
 2. 根目录必须要有 `docs` 文件夹，`docs` 文件夹是项目持久化文档系统的保存位置。
 3. `docs` 下必须要有 `AGENTS.md`，它是整个持久化文档系统的导航目录。
 4. `docs` 下面分了4个部分：
-  a. design：视觉设计系统文档
-  b. engineering: 技术实现文档
-  c. plan: 全生命周期的计划文档
-  d. product: 项目产品文档
-5. 必须使用 GEB 文档管理机制
+  a. `design`：视觉设计系统文档，下面有 `design-system.md`
+  b. `engineering`: 技术实现文档
+  c. `plan`: 全生命周期的计划文档
+  d. `product`: 项目产品文档
+5. `engineering` 文件夹下必须有
+  a. `context.md`
+	b. `database.md`
+	c. `deployment.md`
+	d. `development.md`
+	e. `test.md`
+	f. `workflow.md`
+6. 必须使用 GEB 文档管理机制
 
 ## 整体步骤
 
