@@ -1,6 +1,6 @@
-Skills
+# Skills
 
-Phoenix的skills仓库。
+Phoenix 的 skill 仓库。
 
 ## List
 | SKILL | 介绍 |
