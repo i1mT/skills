@@ -1,12 +1,12 @@
 ---
-name: oil-ui
+name: iimt-ui
 description: "Design, improve, and review interfaces for websites, apps, dashboards, and components: explore distinct design directions, compare styles side by side, and refine visual hierarchy against real screenshots. Delivers comparison pages, design notes, mockups, or working interfaces. Use for new interface design, style comparison, visual polish, screenshot recreation, or interface review. Not for business logic, APIs, builds, or code cleanup without visible UI changes. 设计、改进和评审网站、App、后台与组件的界面，完成设计方向探索、多风格同屏比较、视觉层级和基于实际画面的迭代；按请求交付对比页、设计说明、设计稿或可运行界面。当用户需要新界面设计、比较不同设计风格、视觉精修、截图还原或界面评审时使用。只负责设计判断，组件归属、数据流、状态正确性和测试等代码实现质量不在范围内。不用于纯业务逻辑、接口、构建部署、无界面行为变化的代码整理、单独绘制普通插画或操作现有网站。"
 metadata:
   version: "0.22.2"
   compatibility: "核心为宿主中立的文本流程，不依赖其他 Skill 或指定模型。可选风格对比页生成器需要 Python 3.10+ 标准库，产物仅需现代浏览器；本机地址候选需要对应的本地开发服务器在运行。实际视觉验收需要看图能力；交互验收需要可操作环境；独立评审需要隔离上下文且能看图的执行者。"
 ---
 
-# oil-ui
+# iimt-ui
 
 先定下一句设计北极星，再让构图、字体、色彩、素材和交互都朝它靠拢，做出一眼认得出来的界面。克制是留下最有力量的选择、删掉没有贡献的元素，不是把所有风格磨成中庸。界面好不好看、任务走不走得通，分开验收。
 

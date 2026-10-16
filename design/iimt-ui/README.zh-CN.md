@@ -1,14 +1,14 @@
 [English](README.md) · 中文
 
 <p align="center">
-  <img src="./assets/readme/hero.webp" width="100%" alt="oil-ui：把 AI 的 UI 设计能力推到极限。插画里的人把黄色图钉按在三张风格不同的小样中间那张上">
+  <img src="./assets/readme/hero.webp" width="100%" alt="iimt-ui：把 AI 的 UI 设计能力推到极限。插画里的人把黄色图钉按在三张风格不同的小样中间那张上">
 </p>
 
 <p align="center">
   <img src="./assets/readme/showcase.webp" width="100%" alt="先看效果：画廊里的部分作品，包括学英语 App、音乐年度报告、硬件官网、组件库官网、项目管理工具、打车 App、语音助手、结账流程和胶片相机">
 </p>
 
-Oil UI 是给 AI Agent 用的界面设计 Skill：先拉开几种真正不同的设计方向放在一起让你挑，再照着真实画面打磨。网站、App、后台和组件都能做。
+iimt-ui 是给 AI Agent 用的界面设计 Skill：先拉开几种真正不同的设计方向放在一起让你挑，再照着真实画面打磨。网站、App、后台和组件都能做。
 
 ## 它怎么设计
 
@@ -26,13 +26,13 @@ Oil UI 是给 AI Agent 用的界面设计 Skill：先拉开几种真正不同的
 把这句话交给支持安装 Skill 的 Agent：
 
 ```text
-请帮我安装这个 Skill：https://github.com/i1mT/ui-skill
+请帮我安装这个 Skill：https://github.com/i1mT/skills/tree/main/design/iimt-ui
 ```
 
 或者在终端运行：
 
 ```bash
-npx skills add i1mT/ui-skill
+npx skills add https://github.com/i1mT/skills --skill iimt-ui
 ```
 
 装好就能用，不需要额外配置。
@@ -41,7 +41,7 @@ npx skills add i1mT/ui-skill
 
 直接把任务告诉 Agent，例如：
 
-- “用 oil-ui 给这个课程预约产品探索几种设计方向，做成可以预览的页面。”
+- “用 iimt-ui 给这个课程预约产品探索几种设计方向，做成可以预览的页面。”
 - “做三种字体、配色和构图都不同的设计，放在对比页里让我选。”
 - “帮我润色这个页面，按项目现有的设计规范来。”
 - “只评审这个首页，告诉我哪里要改、怎么改，不要动文件。”

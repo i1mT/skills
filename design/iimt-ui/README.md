@@ -1,14 +1,14 @@
 English · [中文](README.zh-CN.md)
 
 <p align="center">
-  <img src="./assets/readme/hero.en.webp" width="100%" alt="oil-ui: push AI UI design to its limits. A person pins a yellow pushpin to the middle of three previews in different styles">
+  <img src="./assets/readme/hero.en.webp" width="100%" alt="iimt-ui: push AI UI design to its limits. A person pins a yellow pushpin to the middle of three previews in different styles">
 </p>
 
 <p align="center">
   <img src="./assets/readme/showcase.en.webp" width="100%" alt="Gallery highlights: an English learning app, a music year in review, hardware and component library websites, a project management tool, a ride-hailing app, a voice assistant, a checkout flow, and a film camera">
 </p>
 
-Oil UI is an interface design skill for AI agents. It explores a few genuinely different design directions side by side, lets you choose one, then refines it against real screenshots. It works for websites, apps, dashboards, and components.
+iimt-ui is an interface design skill for AI agents. It explores a few genuinely different design directions side by side, lets you choose one, then refines it against real screenshots. It works for websites, apps, dashboards, and components.
 
 ## How it designs
 
@@ -26,13 +26,13 @@ Oil UI is an interface design skill for AI agents. It explores a few genuinely d
 Send this to an agent that can install skills:
 
 ```text
-Install this skill for me: https://github.com/i1mT/ui-skill
+Install this skill for me: https://github.com/i1mT/skills/tree/main/design/iimt-ui
 ```
 
 Or run this in your terminal:
 
 ```bash
-npx skills add i1mT/ui-skill
+npx skills add https://github.com/i1mT/skills --skill iimt-ui
 ```
 
 It's ready to use right after installation, with nothing to configure.
@@ -41,7 +41,7 @@ It's ready to use right after installation, with nothing to configure.
 
 Tell your agent what you need, for example:
 
-- “Use oil-ui to explore a few design directions for this course booking product and build pages I can preview.”
+- “Use iimt-ui to explore a few design directions for this course booking product and build pages I can preview.”
 - “Create three designs with different typography, colors, and compositions. Put them on a comparison page so I can choose.”
 - “Polish this page using the project’s existing design guidelines.”
 - “Review this homepage and explain what to change and how. Leave the files untouched.”

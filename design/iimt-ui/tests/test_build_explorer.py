@@ -351,7 +351,7 @@ console.log(JSON.stringify(result));
  document.querySelector('#info-body [data-pick]').click();await Promise.resolve();capture();
  navigator.clipboard.writeText=async()=>{throw Error('denied')};document.execCommand=()=>false;
  document.querySelector('#info-body [data-pick]').click();await Promise.resolve();await Promise.resolve();capture();
- const result=document.createElement('pre');result.id='i18n-result';result.textContent=JSON.stringify({lang:document.documentElement.lang,title:document.title,snapshots,copied,initial,saved:JSON.parse(localStorage.getItem(`oil-ui:${DATA.fingerprint}`))});document.body.append(result);
+ const result=document.createElement('pre');result.id='i18n-result';result.textContent=JSON.stringify({lang:document.documentElement.lang,title:document.title,snapshots,copied,initial,saved:JSON.parse(localStorage.getItem(`iimt-ui:${DATA.fingerprint}`))});document.body.append(result);
 })();
 </script>"""
         table = json.loads(builder.TEMPLATE.read_text(encoding="utf-8").split("const I18N = ", 1)[1].split(";\n", 1)[0])
@@ -361,7 +361,7 @@ console.log(JSON.stringify(result));
                 self.save()
                 builder.build(self.manifest, self.output, force=True)
                 page = self.output.read_text(encoding="utf-8")
-                key = "oil-ui:" + self.payload(page)["fingerprint"]
+                key = "iimt-ui:" + self.payload(page)["fingerprint"]
                 legacy = {"layout": "loupe", "viewport": "mobile", "current": "b", "chosen": "a",
                           "visible": [], "notesOn": False, "notes": "Old private note"}
                 seed = "<script>localStorage.setItem(" + json.dumps(key) + "," + json.dumps(json.dumps(legacy)) + ");</script>"
@@ -719,7 +719,7 @@ console.log(JSON.stringify(result));
         shutil.copytree(ROOT / "assets", copy / "assets")
         logo = "data:image/png;base64," + base64.b64encode((ROOT / "assets/logo.png").read_bytes()).decode("ascii")
         font = "data:font/ttf;base64," + base64.b64encode((ROOT / "assets/fonts/instrument-serif/InstrumentSerif-Regular.ttf").read_bytes()).decode("ascii")
-        (copy / "SKILL.md").write_text("---\nname: oil-ui\n---\n", encoding="utf-8")
+        (copy / "SKILL.md").write_text("---\nname: iimt-ui\n---\n", encoding="utf-8")
         output = self.folder / "explorer.html"
         run = subprocess.run([sys.executable, str(copy / "scripts/build_explorer.py"), str(self.manifest),
                               "--output", str(output)], cwd=self.folder, capture_output=True, text=True, encoding="utf-8")
